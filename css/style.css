@@ -1,0 +1,443 @@
+/* Reset */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Arial, Georgia, serif;
+  color: #575353;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Estilos Gerais */
+.btn {
+  border: 4px solid #fff;
+  padding: 20px 38px;
+  color: #fff;
+  font-size: 28px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.btn:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.btn-preto {
+  border: 4px solid #000;
+  padding: 20px 38px;
+  color: #000;
+  font-size: 28px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.btn-preto:hover {
+  color: #ffbd58;
+  border-color: #ffbd58;
+}
+
+.btn-center {
+  text-align: center;
+  clear: both;
+  padding: 80px 0 80px 0;
+}
+
+.menu ul li a:hover {
+  color: #ffbd58;
+  font-weight: bold;
+}
+
+.menu .menu-nav ul li a.menu-ativo {
+  color: #ffbd58;
+  font-weight: bold;
+}
+
+.menu .menu-nav ul li a.btn-denuncie {
+  background-color: #ff0000;
+  border-radius: 0.25em;
+}
+.menu .menu-nav ul li a.btn-denuncie:hover {
+  color: #000;
+}
+
+/* Menu */
+
+.menu {
+  background: #575353; /* cinza */
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+}
+
+.menu-logo {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.menu-nav ul {
+  float: right;
+  padding: 15px 0;
+}
+
+.menu-nav ul li {
+  display: inline-block;
+}
+
+.menu-nav a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+@media (max-width: 739px) {
+  .menu {
+    position: relative;
+  }
+
+  .menu img {
+    margin: 0 auto 5px auto;
+  }
+  .menu-nav ul {
+    float: none;
+    text-align: center;
+    padding: 0px;
+  }
+  .menu-nav ul li a {
+    border: 3px solid #fff;
+    width: 136px;
+    display: block;
+    float: left;
+    margin: 5px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .menu-nav ul li a {
+    margin-left: 0px;
+  }
+
+  .menu-nav ul li a.menu-ativo {
+    border-color: #ffbd58;
+  }
+}
+
+/* SOBRE */
+
+.sobre {
+  width: 100%;
+  background: #767056;
+}
+
+.sobre-texto {
+  padding-top: 120px;
+}
+.sobre-texto h3 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2em;
+  padding-bottom: 40px;
+}
+
+.sobre-texto .sobre-btn {
+  text-transform: uppercase;
+  background: #5bf66b;
+  color: #000;
+  font-size: 1.75em;
+  padding: 20px 30px;
+  border-radius: 0.25em;
+}
+
+.sobre-texto .btn-sobre {
+  padding-bottom: 60px;
+}
+
+.sobre-img {
+  padding-top: 150px;
+}
+
+@media (max-width: 739px) {
+  .sobre-texto {
+    padding-top: 10px;
+  }
+
+  .sobre-texto h3 {
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 20px;
+  }
+
+  .btn-sobre {
+    text-align: center;
+  }
+
+  .sobre-texto .sobre-btn {
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #5bf66b;
+    color: #000;
+    font-size: 1em;
+    padding: 15px 25px;
+    border-radius: 0.25em;
+  }
+
+  .sobre-img {
+    padding: 0px;
+  }
+}
+
+/* AMIGUINHOS */
+.amiguinhos {
+  width: 100%;
+  background: #ffbd58;
+}
+
+.amiguinhos h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.75em;
+  font-weight: bold;
+  color: #fff;
+  padding: 40px 0 20px 0;
+}
+
+.amiguinhos h2:after {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 3px;
+  background: #fff;
+  margin: 15px auto 15px auto;
+}
+
+.amiguinhos-lista-cachorro ul li {
+  padding-bottom: 40px;
+}
+
+.amiguinhos-lista-gato ul li {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 739px) {
+  .amiguinhos ul li img {
+    margin: 0 auto;
+  }
+
+  .amiguinhos-lista-cachorro ul li {
+    padding-bottom: 20px;
+  }
+
+  .amiguinhos-lista-gato ul li {
+    padding-bottom: 20px;
+  }
+
+  .amiguinhos .btn-center {
+    padding: 40px 0px 60px 0px;
+  }
+}
+
+/* ONGS */
+.ongs {
+  width: 100%;
+  background: #fcfae2;
+}
+
+.ongs h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.75em;
+  font-weight: bold;
+  color: #000;
+  padding: 40px 0px 0px 0px;
+}
+
+.ongs h2:after {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 3px;
+  background: #000;
+  margin: 15px auto;
+}
+
+.ongs h3 {
+  color: #000;
+  font-weight: normal;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.ongs-lista li {
+  cursor: pointer;
+}
+
+@media (max-width: 739px) {
+  .ongs h3 {
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .ongs ul li img {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .ongs .btn-center {
+    padding: 40px 0px 60px 0px;
+  }
+}
+
+/* PARCEIROS */
+.parceiros {
+  width: 100%;
+  background: #ffbd58;
+}
+
+.parceiros h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.75em;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.parceiros h2:after {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 3px;
+  background: #fff;
+  margin: 15px auto 30px auto;
+}
+
+.parceiros-lista ul li {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 739px) {
+  .parceiros ul li {
+    padding: 0px;
+  }
+
+  .parceiros-lista ul li img {
+    margin: 0 auto;
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  background: #767056;
+  color: #fff;
+  padding: 20px 0 20px;
+}
+
+.footer h4 {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.footer h4:after {
+  content: "";
+  display: block;
+  width: 46px;
+  height: 2px;
+  background: #fff;
+  margin: 5px 0 15px 0;
+}
+.contato-footer {
+  font-size: 1em;
+  font-weight: normal;
+  color: #fff;
+}
+
+.redes-footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-footer ul li a {
+  border: 4px solid #ffbd58;
+  display: block;
+  padding: 10px;
+}
+
+.redes-footer ul li a:hover {
+  border-color: #fff;
+}
+
+.footer p {
+  line-height: 1.25em;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.footer p a {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #fff;
+  background: #ff0000;
+  margin-left: 20px;
+  border-radius: 0.25em;
+}
+
+@media (max-width: 739px) {
+  .footer h4 {
+    text-align: center;
+  }
+
+  .footer h4:after {
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .footer ul {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .footer p {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .logo-footer img {
+    margin: 0 auto;
+    padding: 0px;
+  }
+}

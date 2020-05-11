@@ -1,0 +1,67 @@
+/* AMIGUINHOS */
+.amiguinhos {
+  width: 100%;
+  background: #ffbd58;
+}
+
+.amiguinhos h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.75em;
+  font-weight: bold;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.amiguinhos h2:after {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 3px;
+  background: #fff;
+  margin: 15px auto 15px auto;
+}
+
+.amiguinhos h3 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.amiguinhos-lista-cachorro ul li {
+  padding-bottom: 40px;
+}
+
+.amiguinhos-lista-gato ul li {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 739px) {
+  .amiguinhos h2 {
+    padding: 0px;
+  }
+
+  .amiguinhos h2:after {
+    content: "";
+    display: block;
+    width: 86px;
+    height: 3px;
+    background: #fff;
+    margin: 5px auto 15px auto;
+  }
+  .amiguinhos h3 {
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .amiguinhos-lista-cachorro ul li {
+    padding-bottom: 20px;
+  }
+
+  .amiguinhos-lista-gato ul li {
+    padding-bottom: 20px;
+  }
+}

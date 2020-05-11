@@ -1,0 +1,62 @@
+.denuncie {
+  width: 100%;
+  background: #ffbd58;
+}
+
+.denuncie h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.75em;
+  font-weight: bold;
+  color: #000;
+  padding: 40px 0;
+}
+
+.denuncie h2:after {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 3px;
+  background: #000;
+  margin: 15px auto 15px auto;
+}
+
+.denuncie h3 {
+  color: #000;
+  font-weight: normal;
+  font-size: 1.06em;
+  padding-bottom: 40px;
+}
+
+.denuncie h3 a {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.denuncie h3 .recife {
+  color: #fff;
+  background-color: #ff0000;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.25em;
+}
+
+@media only screen and (max-width: 739px) {
+  .denuncie h2 {
+    padding: 0px;
+    font-size: 2em;
+  }
+
+  .denuncie h2:after {
+    content: "";
+    display: block;
+    width: 86px;
+    height: 3px;
+    background: #000;
+    margin: 15px auto 15px auto;
+  }
+
+  .denuncie h3 {
+    padding: 10px 0px 5px 0px;
+  }
+}
